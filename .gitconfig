@@ -1,0 +1,18 @@
+[color]
+	ui = true
+    diff = auto
+    status = auto
+    branch = auto
+
+[user]
+	name = Jamil Atta Junior
+	email = atta.jamil@gmail.com
+
+[gui]
+	recentrepo = /Users/jamil/project/SciELO-Manager
+
+[merge]
+	tool = opendiff
+
+[core]
+	editor = /usr/bin/vim

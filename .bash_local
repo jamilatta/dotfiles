@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# bash history config
+HISTCONTROL=ignoredups:ignorespace
+HISTSIZE=1000000
+HISTFILESIZE=2000000
+HISTTIMEFORMAT="[%Y-%m-%d %H:%M:%S] "
+ 
+# Virtualenvwrapper config
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+
+# Encoding 
+export LC_CTYPE=pt_BR.UTF-8
+export PATH="/usr/local/bin:$PATH"
+
+# ScieloManager config
+export SCIELOMANAGER_SETTINGS_FILE="/Users/jamil/project/scielo-manager/sc
+ielomanager/scielomanager/settings_local.include"
+
+# MySQL config
+export PATH=$PATH:/usr/local/mysql/bin
+
+# Git config
+# Remove git merge message
+export GIT_MERGE_AUTOEDIT=no
+
