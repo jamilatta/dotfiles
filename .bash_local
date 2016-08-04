@@ -7,22 +7,16 @@ HISTFILESIZE=2000000
 HISTTIMEFORMAT="[%Y-%m-%d %H:%M:%S] "
 
 # Virtualenvwrapper config
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-source /usr/local/bin/virtualenvwrapper.sh
+#export WORKON_HOME=$HOME/.virtualenvs
+#export PROJECT_HOME=$HOME/Devel
+#source /usr/local/bin/virtualenvwrapper.sh
 
 # Encoding
-export LC_CTYPE=pt_BR.UTF-8
-export PATH="/usr/local/bin:$PATH"
-
-# Set Postgres config
-export PATH=$PATH:/Library/PostgreSQL/9.2/bin/
+#export LC_CTYPE=pt_BR.UTF-8
+#export PATH="/usr/local/bin:$PATH"
 
 # ScieloManager config
-export SCIELOMANAGER_SETTINGS_FILE="/Users/jamil/project/scielo-manager/scielomanager/scielomanager/settings_local.include"
-
-# MySQL config
-export PATH=$PATH:/usr/local/mysql/bin
+#export SCIELOMANAGER_SETTINGS_FILE="/Users/jamil/project/scielo-manager/scielomanager/scielomanager/settings_local.include"
 
 # Git config
 # Remove git merge message
@@ -37,6 +31,6 @@ function mail_server() {
 
 }
 
-export OPAC_CONFIG=/Users/jamil/project/opac/opac/webapp/config/local.py
-export SOLR_URL=http://localhost:8080/solr/scielo-articles
+#export OPAC_CONFIG=/Users/jamil/project/opac/opac/webapp/config/local.py
+#export SOLR_URL=http://localhost:8080/solr/scielo-articles
 
